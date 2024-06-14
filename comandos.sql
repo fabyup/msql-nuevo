@@ -18,6 +18,7 @@ INSERT INTO productos (tamanio)VALUES ()
 INSERT INTO productos (precio,nombre)VALUES (500000.123, "notebook");
 INSERT INTO productos (precio,nombre)VALUES (0.230, "notebook ojala");
 INSERT INTO productos (precio,nombre,tamanio,unidad)VALUES (350000.00, "PC GAMER",10,"KG");
+INSERT INTO productos (precio,nombre,tamanio,unidad) VALUES (450000.00,"smart tv",15,"KG");
 INSERT INTO productos ()VALUES ();
 INSERT INTO productos ( nombre )VALUES ("algo");
 INSERT INTO productos (precio, nombre, tamanio, unidad) VALUES (0.230, "notebook ojala", 20, "L");
@@ -44,3 +45,5 @@ SET unidad = "KG" WHERE id = 1;
 
 DELETE FROM productos WHERE id=3; 
 DELETE FROM productos WHERE id=2; 
+
+
