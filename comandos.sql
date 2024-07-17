@@ -130,3 +130,28 @@ DELETE FROM
     productos
 WHERE
     id = 2;
+
+
+
+    CREATE DATABASE cosmeticos;
+
+
+    
+   CREATE TABLE maquillajes(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    precio FLOAT NOT NULL; 
+    nombre VARCHAR(30),
+   
+     
+    )
+      
+      INSERT INTO  maquillajes (precio,nombre ) VALUES("30000","POLVO COMPACTO");
+      ALTER TABLE maquillajes ADD COLUMN cantidad VARCHAR(5);
+      INSERT INTO maquillajes (precio,nombre,cantidad) VALUES ("20000","BASE EN CREMA","10U");
+      ALTER TABLE maquillajes ADD COLUMN marca VARCHAR(15);
+      UPDATE maquillajes SET marca = "REVLON" WHERE id = 1;
+      UPDATE maquillajes SET marca = "RIMMEL" WHERE ID = 2;
+      
+
+           
+    
